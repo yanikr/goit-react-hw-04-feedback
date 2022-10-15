@@ -1,5 +1,7 @@
-export const Notification = ({message}) => { 
+import {NotificationMessage} from './Notification.styled'
+
+export const Notification = ({ message }) => { 
     return (<>
-        <p>{message}</p>
+        <NotificationMessage>{message}</NotificationMessage>
     </>)
 }
